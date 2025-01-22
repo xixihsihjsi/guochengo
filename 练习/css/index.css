@@ -176,10 +176,13 @@ body{
     
     
 }
+
+.dibu p{
+    margin: 1vw;
+}
 .row .card-body span{
     color: black;
     
-   
-    
+
    
 }
