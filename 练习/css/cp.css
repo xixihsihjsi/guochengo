@@ -1,0 +1,116 @@
+.text-bg-dark {
+    color: black!important;
+    background-color: white !important;
+   
+}
+
+
+.card{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+   
+  
+}
+/* body{
+    background: rgb(157, 148, 148);
+    
+} */
+.breadcrumb a{
+    text-decoration: none;
+    color:rgba(33, 37, 41, 0.75);
+}
+.breadcrumb a:hover{
+  
+    color: rgb(222, 38, 38);
+   
+}
+/* .breadcrumb{
+    margin: 0.5rem;
+} */
+
+/* .card-img-overlay{
+    position: relative;
+    
+} */
+
+.card-img-overlay a{
+    text-decoration: none;
+    color: rgb(218, 155, 77);
+    font-size: 1.4rem;
+    line-height: 600px;
+  
+   
+}
+.card-img-overlay p{
+ 
+    float: right;
+
+}
+.card-img-overlay a:hover{
+    /* color:rgb(126, 126, 126); */
+    color: red;
+   
+}
+
+.lx{
+    width: 80%;
+    margin: 0 auto;
+    border: solid 2px rgb(157, 22, 22);
+    margin-top: 1vw;
+    display: flex;
+   justify-content: space-around;
+    /* text-align: center; */
+    padding-top: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+   
+   
+}
+
+.wenzi p{
+    flex: 100%;
+    font-size: 1.8vw;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+   
+}
+
+
+.shaoma img{
+    width: 100%;
+    height:auto;
+    margin-top: 1vw;
+}
+.shaoma p{
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 1.2vw;
+  
+ 
+}
+.yemian{
+    margin: 2vw 0;
+}
+
+
+
+/* body{
+    background-color: aquamarine;
+} */
+.row h4{
+    /* line-height: 220%; */
+    margin-top: 2vw;
+    font-size: 2.5vw;
+    margin-bottom: 0;
+}
+/* .row div{
+    background-color: antiquewhite;
+} */
+.row img{
+    width: 100%;
+    height: auto;
+}
+.content .row{
+    margin: 0 auto;
+    
+}
