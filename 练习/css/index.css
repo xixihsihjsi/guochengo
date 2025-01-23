@@ -165,6 +165,9 @@ body{
     font-size: 0.86vw;
     margin-top: 1.2vw;
 }
+.center .shaoma img{
+    margin-top: 3vw;
+}
 
 .left a{
     text-decoration: none;
