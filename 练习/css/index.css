@@ -5,10 +5,17 @@
     color:black;
     
 }
+p{
+    margin-bottom:1vw;
+}
+.carousel-indicators [data-bs-target] {
+    width: 2vw;
+   border-bottom: none;
+}
 
 
 body{
-    background: rgb(248, 244, 244);
+    background: rgb(250, 248, 248);
     /* background-color: aqua; */
     
 }
@@ -45,20 +52,19 @@ body{
    
 }
 .title p{
-    font-size: 2.5vw;
+    font-size: 2.3vw;
    
 }
 .col img{
     width: 100%;
     height: auto;
 }
-.content{
-    text-align: center;
-}
+
 .row{
     width: 100%;
     margin: 0 auto;
     --bs-gutter-x: 1vw;
+
    
     div{
         /* height: 250px; */
@@ -87,12 +93,12 @@ body{
  }
  .row p{
     width: 100%;
-    margin-top: 2vw;
+    margin-top: 2.5vw;
  
     display: block;
     color:black;
    
-    font-size: 2.4vw;
+    font-size: 2.5vw;
 }       
 .row p:hover{
    color:rgb(222, 38, 38);
@@ -125,6 +131,13 @@ body{
    
     width: 100%;
 }
+/* 关于我们 */
+.bg-body-secondary {
+    --bs-bg-opacity:none ;
+    /* background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important; */
+}
+
+
 
 
 
@@ -166,7 +179,7 @@ body{
     margin-top: 1.2vw;
 }
 .center .shaoma img{
-    margin-top: 2.6vw;
+    margin-top: 2vw;
 }
 
 .left a{
