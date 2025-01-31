@@ -15,9 +15,12 @@ p{
 
 
 body{
-    background: rgb(250, 248, 248);
-    /* background-color: aqua; */
-    
+    /* background: rgb(250, 248, 248); */
+    /* font-family: 'Times New Roman', serif; */
+    /* background-color: #f4f4f4; */
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-brand{
@@ -46,6 +49,7 @@ body{
 .title {
     margin:min(1.5em,5%);
     text-align:center;
+    font-family: 'Times New Roman', serif;
 }
 .title h2 {
     font-size: 4.2vw
@@ -56,12 +60,13 @@ body{
    
 }
 .col img{
-    width: 100%;
+    
     height: auto;
+    border: 5px solid #8B4513;
 }
 
 .row{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     --bs-gutter-x: 1vw;
 
@@ -100,10 +105,8 @@ body{
    
     font-size: 2.5vw;
 }       
-.row p:hover{
-   color:rgb(222, 38, 38);
-   
-}
+
+
 .title p{
     margin-top: 1em;
 }
@@ -126,16 +129,16 @@ body{
 }
  
 /* 页面简介 */
-.row .col img{
+/* .row .col img{
     height: auto;
    
     width: 100%;
-}
+} */
 /* 关于我们 */
-.bg-body-secondary {
-    --bs-bg-opacity:none ;
+/* .bg-body-secondary {
+    --bs-bg-opacity:none ; */
     /* background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important; */
-}
+/* } */
 
 
 
@@ -151,7 +154,7 @@ body{
     color: white;
     font-family: Arial, sans-serif;
     flex-wrap: wrap;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
    
  
     
@@ -162,7 +165,7 @@ body{
 }
 .left h5{
     margin-bottom: 2vw;
-    font-size: 2.1vw;
+    font-size: 1.8vw;
     
 }
 
@@ -209,4 +212,61 @@ body{
    
     
    
+}
+
+/* 产品介绍样式 */
+.card {
+    margin-bottom: 20px; /* 项目之间的间距 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* 鼠标悬停时上移 */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 悬停时阴影加深 */
+
+}
+.product-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    
+    
+}
+.product-item img:hover {
+    transform: scale(1.05); /* 鼠标悬停时图片放大 */
+}
+.product-item h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+.product-item p {
+    color: #555;
+    font-size: 1em;
+}
+.product-item a{
+    color: rgb(56, 54, 54);
+}
+.product-item a:hover{
+    color:rgb(172, 157, 75);
+    
+}
+.about {
+    padding: 20px 0;
+    background-color:rgb(215, 212, 212);
+    text-align: center;
+}
+.row h3{
+    font-size: 3vw;
+    color:rgb(0, 0, 0);
+    
+}
+.row p{
+    font-size: 2.5vw;
+    
 }
