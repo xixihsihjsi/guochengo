@@ -227,7 +227,7 @@ body{
     transform: scale(1.05); /* 鼠标悬停时图片放大 */
 }
 .product-item h3 {
-    margin-top: 15px;
+    margin-top: 9px;
     font-size: 1.5em;
 }
 .product-item p {
