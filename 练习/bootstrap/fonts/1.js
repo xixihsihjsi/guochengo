@@ -19,7 +19,7 @@
  });
 
  // 为关闭按钮添加点击事件监听器
- closeButton.addEventListener('click', () => {
+   closeButton.addEventListener('click', () => {
    // 隐藏模态框
    modal.style.display = 'none';
  });
@@ -31,5 +31,18 @@
    }
  });
 
+ window.onscroll = function() {
+  var backToTopButton = document.getElementById('back-to-top');
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      backToTopButton.style.display = 'block';
+  } else {
+      backToTopButton.style.display = 'none';
+  }
+};
 
+// 点击回到顶部按钮时，滚动到页面顶部
+document.getElementById('back-to-top').addEventListener('click', function() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
 

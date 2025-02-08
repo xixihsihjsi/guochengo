@@ -228,6 +228,7 @@ body{
 }
 .product-item h3 {
     margin-top: 1vw;
+   
     font-size: 1.5em;
 }
 .product-item p {
@@ -264,4 +265,9 @@ body{
 .carousel-item{
     transition: transform .5s ease-in-out;
 }
-
+  /* 新增的导航栏固定样式 */
+  nav.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
