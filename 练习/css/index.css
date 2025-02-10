@@ -271,3 +271,9 @@ body{
     top: 0;
     z-index: 1000;
 }
+/* 优势部分图标样式 */
+.advantage-icon {
+    font-size: 3.5vw;
+    /* color: #007bff; */
+    color: #6c757d;;
+}
