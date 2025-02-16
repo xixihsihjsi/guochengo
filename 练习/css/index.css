@@ -134,7 +134,7 @@ body{
     width: 100%;
     background-color: rgba(60, 59, 59, 0.945);
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     padding-top: 3.3vw;
     color: white;
     font-family: Arial, sans-serif;
