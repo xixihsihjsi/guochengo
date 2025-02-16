@@ -135,18 +135,18 @@ body{
     background-color: rgba(60, 59, 59, 0.945);
     display: flex;
     justify-content:space-around;
-    padding-top: 3vw;
+    padding-top: 3.3vw;
     color: white;
     font-family: Arial, sans-serif;
     flex-wrap: wrap;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
    
  
     
     
 }
 .foot p{
-    margin-bottom: 0.8vw;
+    margin-bottom: 1vw;
 }
 .left h5{
     margin-bottom: 2vw;
@@ -277,3 +277,6 @@ body{
     /* color: #007bff; */
     color: #6c757d;;
 }
+
+
+
