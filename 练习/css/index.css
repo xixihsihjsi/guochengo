@@ -134,19 +134,19 @@ body{
     width: 100%;
     background-color: rgba(60, 59, 59, 0.945);
     display: flex;
-    justify-content:space-evenly;
-    padding-top: 3.3vw;
+    justify-content:space-around;
+    padding-top: 3vw;
     color: white;
     font-family: Arial, sans-serif;
     flex-wrap: wrap;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
    
  
     
     
 }
 .foot p{
-    margin-bottom: 1vw;
+    margin-bottom: 0.8vw;
 }
 .left h5{
     margin-bottom: 2vw;
@@ -167,7 +167,7 @@ body{
     margin-top: 1.2vw;
 }
 .center .shaoma img{
-    margin-top: 3vw;
+    margin-top: 2vw;
 }
 
 .left a{
@@ -189,7 +189,7 @@ body{
     border-top: solid 2px rgb(157, 22, 22);
 }
 .dibu p{
-    margin: 0.8vw;
+    margin: 1vw;
 }
 .row .card-body span{
     color: black;
