@@ -11,10 +11,10 @@
    
   
 }
-/* body{
-    background: rgb(157, 148, 148);
+body{
+    background: rgb(250, 248, 248);
     
-} */
+}
 .breadcrumb a{
     text-decoration: none;
     color:rgba(33, 37, 41, 0.75);
@@ -89,7 +89,7 @@
  
 }
 .yemian{
-    margin: 2vw 0;
+    margin: 5vw 0;
    
 }
 
@@ -255,3 +255,12 @@ ul {
      border-radius: 20px;
      
 }
+/* .all{
+    width: 100%;
+    
+  
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    background-size: 60%;
+} */
