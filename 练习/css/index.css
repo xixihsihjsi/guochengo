@@ -65,7 +65,7 @@ body{
 .row{
     width: 90%;
     margin: 0 auto;
-    --bs-gutter-x: 1vw;
+    --bs-gutter-x: 1.2vw;
 
    
     div{
@@ -89,7 +89,7 @@ body{
     width: initial;
     height: initial;
     max-width: 90%;
-    max-height: 85%;
+    max-height: 90%;
     object-fit: initial;
     border-radius: 20px;
    
