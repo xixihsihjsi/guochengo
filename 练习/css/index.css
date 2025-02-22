@@ -15,7 +15,7 @@ p{
 
 
 body{
-    /* background: rgb(250, 248, 248); */
+    background: rgb(250, 246, 246);
     /* font-family: 'Times New Roman', serif; */
     /* background-color: #f4f4f4; */
     color: #333;
@@ -65,13 +65,14 @@ body{
 .row{
     width: 90%;
     margin: 0 auto;
-    --bs-gutter-x: 1vw;
+    --bs-gutter-x: 2vw;
 
    
     div{
         /* height: 250px; */
         margin-bottom: 2vw;
         margin-top: 1vw;
+        
         /* background-color: red; */
         a{
             text-decoration: none;
@@ -84,11 +85,11 @@ body{
 
       
  .row img{
-    height: 220px;
+    /* height: 220px; */
     width: initial;
     height: initial;
     max-width: 90%;
-    max-height: 90%;
+    max-height: 85%;
     object-fit: initial;
     border-radius: 20px;
    
