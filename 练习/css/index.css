@@ -65,7 +65,7 @@ body{
 .row{
     width: 90%;
     margin: 0 auto;
-    --bs-gutter-x: 2vw;
+    --bs-gutter-x: 1vw;
 
    
     div{
