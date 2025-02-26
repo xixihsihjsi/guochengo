@@ -107,15 +107,16 @@
     background-color: antiquewhite;
 } */
 .row img{
-    max-width: 95%;
+    max-width: 100%;
     height: auto;
+    
 }
 .content .row h4{
     margin: 0 auto;
     text-align: center;
     font-size: 3vw;
     margin-top: 1.5vw;
-    
+   
     
 }
 
@@ -243,9 +244,11 @@ ul {
     border-radius: 15px;
     text-decoration: none;
     font-size: 2vw;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .yemian .know-more:hover{
   color: black;
+  transform: scale(1.1); /* 悬停时按钮放大 */
 }
 
 
@@ -270,10 +273,72 @@ ul {
 } */
 
 /* 导航 */
-/* .breadcrumb{
+.breadcrumb{
     margin-top: 1vw;
     font-size: 3vw;
     margin-left: 1vw;
     
     
-} */
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 滚动 */
+.project, .yemian, .lx, .px, .ix {
+    animation: fadeInUp 0.8s ease forwards;
+    opacity: 0;
+}
+/* 动画 */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(20px);
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+ /* 新增动画样式 */
+ .yemian {
+    transition: transform 0.3s;
+    position: relative;
+}
+.yemian:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+
+/* 导航栏优化 */
+
+.nav-link {
+    position: relative;
+    padding: 8px 15px!important;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(157, 22, 22);
+    transition: width 0.3s;
+}
+.nav-link:hover::after {
+    width: 90%;
+    
+}
