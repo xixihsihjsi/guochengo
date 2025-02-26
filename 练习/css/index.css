@@ -349,10 +349,13 @@ body{
         padding: 1vw;
     }
 
-.h5, h5 {
-font-size: 2.5vw;
 
-}
+
+@media (max-width: 768px){
+    .h5, h5 {
+        font-size: 3.5vw;
+    
+    }}
 
 
 .g-4, .gy-4 {
